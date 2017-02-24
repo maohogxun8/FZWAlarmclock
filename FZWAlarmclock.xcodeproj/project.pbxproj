@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F0718A11E5D966B000F4110 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0718A01E5D966B000F4110 /* main.m */; };
+		8F0718A41E5D966B000F4110 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0718A31E5D966B000F4110 /* AppDelegate.m */; };
+		8F0718A71E5D966B000F4110 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0718A61E5D966B000F4110 /* ViewController.m */; };
+		8F0718AA1E5D966B000F4110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0718A81E5D966B000F4110 /* Main.storyboard */; };
+		8F0718AC1E5D966B000F4110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F0718AB1E5D966B000F4110 /* Assets.xcassets */; };
+		8F0718AF1E5D966B000F4110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0718AD1E5D966B000F4110 /* LaunchScreen.storyboard */; };
+		8F0718BA1E5D966B000F4110 /* FZWAlarmclockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0718B91E5D966B000F4110 /* FZWAlarmclockTests.m */; };
+		8F0718C51E5D966B000F4110 /* FZWAlarmclockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0718C41E5D966B000F4110 /* FZWAlarmclockUITests.m */; };
+		8F0718D41E5D97B4000F4110 /* FWZLocationNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0718D31E5D97B4000F4110 /* FWZLocationNotification.m */; };
+		8F555F801E5FE61C00256511 /* NotifiFormForegroundAleart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F555F7E1E5FE61C00256511 /* NotifiFormForegroundAleart.m */; };
+		8F555F811E5FE61C00256511 /* NotifiFormForegroundAleart.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F555F7F1E5FE61C00256511 /* NotifiFormForegroundAleart.xib */; };
+		8F555F871E6016CA00256511 /* two.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8F555F841E6016A500256511 /* two.m4a */; };
+		8F89D9751E5EC05F00F66AA0 /* SetTimerUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F89D9741E5EC05F00F66AA0 /* SetTimerUI.m */; };
+		8F89D97E1E5EC10100F66AA0 /* TimerListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F89D97D1E5EC10100F66AA0 /* TimerListTableViewCell.m */; };
+		8F89D9831E5EC29A00F66AA0 /* TimerListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F89D9821E5EC29A00F66AA0 /* TimerListTableViewCell.xib */; };
+		8F89D9851E5EC2E600F66AA0 /* SetTimerUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F89D9841E5EC2E600F66AA0 /* SetTimerUI.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F0718B61E5D966B000F4110 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F0718941E5D966B000F4110 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F07189B1E5D966B000F4110;
+			remoteInfo = FZWAlarmclock;
+		};
+		8F0718C11E5D966B000F4110 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F0718941E5D966B000F4110 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F07189B1E5D966B000F4110;
+			remoteInfo = FZWAlarmclock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F07189C1E5D966B000F4110 /* FZWAlarmclock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FZWAlarmclock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0718A01E5D966B000F4110 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F0718A21E5D966B000F4110 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F0718A31E5D966B000F4110 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F0718A51E5D966B000F4110 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F0718A61E5D966B000F4110 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F0718A91E5D966B000F4110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F0718AB1E5D966B000F4110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F0718AE1E5D966B000F4110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F0718B01E5D966B000F4110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0718B51E5D966B000F4110 /* FZWAlarmclockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FZWAlarmclockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0718B91E5D966B000F4110 /* FZWAlarmclockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZWAlarmclockTests.m; sourceTree = "<group>"; };
+		8F0718BB1E5D966B000F4110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0718C01E5D966B000F4110 /* FZWAlarmclockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FZWAlarmclockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0718C41E5D966B000F4110 /* FZWAlarmclockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZWAlarmclockUITests.m; sourceTree = "<group>"; };
+		8F0718C61E5D966B000F4110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0718D21E5D97B4000F4110 /* FWZLocationNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWZLocationNotification.h; sourceTree = "<group>"; };
+		8F0718D31E5D97B4000F4110 /* FWZLocationNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWZLocationNotification.m; sourceTree = "<group>"; };
+		8F555F7D1E5FE61C00256511 /* NotifiFormForegroundAleart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotifiFormForegroundAleart.h; sourceTree = "<group>"; };
+		8F555F7E1E5FE61C00256511 /* NotifiFormForegroundAleart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotifiFormForegroundAleart.m; sourceTree = "<group>"; };
+		8F555F7F1E5FE61C00256511 /* NotifiFormForegroundAleart.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotifiFormForegroundAleart.xib; sourceTree = "<group>"; };
+		8F555F841E6016A500256511 /* two.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = two.m4a; sourceTree = "<group>"; };
+		8F89D9731E5EC05F00F66AA0 /* SetTimerUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetTimerUI.h; sourceTree = "<group>"; };
+		8F89D9741E5EC05F00F66AA0 /* SetTimerUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetTimerUI.m; sourceTree = "<group>"; };
+		8F89D97C1E5EC10100F66AA0 /* TimerListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerListTableViewCell.h; sourceTree = "<group>"; };
+		8F89D97D1E5EC10100F66AA0 /* TimerListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerListTableViewCell.m; sourceTree = "<group>"; };
+		8F89D9821E5EC29A00F66AA0 /* TimerListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimerListTableViewCell.xib; sourceTree = "<group>"; };
+		8F89D9841E5EC2E600F66AA0 /* SetTimerUI.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetTimerUI.xib; sourceTree = "<group>"; };
+		8FD4B5041E5E922400827158 /* FZWAlarmClock.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZWAlarmClock.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F0718991E5D966B000F4110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0718B21E5D966B000F4110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0718BD1E5D966B000F4110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F0718931E5D966B000F4110 = {
+			isa = PBXGroup;
+			children = (
+				8F07189E1E5D966B000F4110 /* FZWAlarmclock */,
+				8F0718B81E5D966B000F4110 /* FZWAlarmclockTests */,
+				8F0718C31E5D966B000F4110 /* FZWAlarmclockUITests */,
+				8F07189D1E5D966B000F4110 /* Products */,
+				AD244565B95BF6FA1E7499E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8F07189D1E5D966B000F4110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F07189C1E5D966B000F4110 /* FZWAlarmclock.app */,
+				8F0718B51E5D966B000F4110 /* FZWAlarmclockTests.xctest */,
+				8F0718C01E5D966B000F4110 /* FZWAlarmclockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F07189E1E5D966B000F4110 /* FZWAlarmclock */ = {
+			isa = PBXGroup;
+			children = (
+				8F89D9811E5EC15100F66AA0 /* FZWAlarmClockNotification */,
+				8F89D97F1E5EC10800F66AA0 /* FZWAlarmClockUI */,
+				8F0718A21E5D966B000F4110 /* AppDelegate.h */,
+				8F0718A31E5D966B000F4110 /* AppDelegate.m */,
+				8F0718A51E5D966B000F4110 /* ViewController.h */,
+				8F0718A61E5D966B000F4110 /* ViewController.m */,
+				8FD4B5041E5E922400827158 /* FZWAlarmClock.pch */,
+				8F0718A81E5D966B000F4110 /* Main.storyboard */,
+				8F555F841E6016A500256511 /* two.m4a */,
+				8F0718AB1E5D966B000F4110 /* Assets.xcassets */,
+				8F0718AD1E5D966B000F4110 /* LaunchScreen.storyboard */,
+				8F0718B01E5D966B000F4110 /* Info.plist */,
+				8F07189F1E5D966B000F4110 /* Supporting Files */,
+			);
+			path = FZWAlarmclock;
+			sourceTree = "<group>";
+		};
+		8F07189F1E5D966B000F4110 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F0718A01E5D966B000F4110 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F0718B81E5D966B000F4110 /* FZWAlarmclockTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F0718B91E5D966B000F4110 /* FZWAlarmclockTests.m */,
+				8F0718BB1E5D966B000F4110 /* Info.plist */,
+			);
+			path = FZWAlarmclockTests;
+			sourceTree = "<group>";
+		};
+		8F0718C31E5D966B000F4110 /* FZWAlarmclockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F0718C41E5D966B000F4110 /* FZWAlarmclockUITests.m */,
+				8F0718C61E5D966B000F4110 /* Info.plist */,
+			);
+			path = FZWAlarmclockUITests;
+			sourceTree = "<group>";
+		};
+		8F89D97F1E5EC10800F66AA0 /* FZWAlarmClockUI */ = {
+			isa = PBXGroup;
+			children = (
+				8F89D97C1E5EC10100F66AA0 /* TimerListTableViewCell.h */,
+				8F89D97D1E5EC10100F66AA0 /* TimerListTableViewCell.m */,
+				8F89D9821E5EC29A00F66AA0 /* TimerListTableViewCell.xib */,
+				8F89D9731E5EC05F00F66AA0 /* SetTimerUI.h */,
+				8F89D9741E5EC05F00F66AA0 /* SetTimerUI.m */,
+				8F89D9841E5EC2E600F66AA0 /* SetTimerUI.xib */,
+				8F555F7D1E5FE61C00256511 /* NotifiFormForegroundAleart.h */,
+				8F555F7E1E5FE61C00256511 /* NotifiFormForegroundAleart.m */,
+				8F555F7F1E5FE61C00256511 /* NotifiFormForegroundAleart.xib */,
+			);
+			name = FZWAlarmClockUI;
+			sourceTree = "<group>";
+		};
+		8F89D9811E5EC15100F66AA0 /* FZWAlarmClockNotification */ = {
+			isa = PBXGroup;
+			children = (
+				8F0718D21E5D97B4000F4110 /* FWZLocationNotification.h */,
+				8F0718D31E5D97B4000F4110 /* FWZLocationNotification.m */,
+			);
+			name = FZWAlarmClockNotification;
+			sourceTree = "<group>";
+		};
+		AD244565B95BF6FA1E7499E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F07189B1E5D966B000F4110 /* FZWAlarmclock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0718C91E5D966B000F4110 /* Build configuration list for PBXNativeTarget "FZWAlarmclock" */;
+			buildPhases = (
+				8F0718981E5D966B000F4110 /* Sources */,
+				8F0718991E5D966B000F4110 /* Frameworks */,
+				8F07189A1E5D966B000F4110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FZWAlarmclock;
+			productName = FZWAlarmclock;
+			productReference = 8F07189C1E5D966B000F4110 /* FZWAlarmclock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F0718B41E5D966B000F4110 /* FZWAlarmclockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0718CC1E5D966B000F4110 /* Build configuration list for PBXNativeTarget "FZWAlarmclockTests" */;
+			buildPhases = (
+				8F0718B11E5D966B000F4110 /* Sources */,
+				8F0718B21E5D966B000F4110 /* Frameworks */,
+				8F0718B31E5D966B000F4110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F0718B71E5D966B000F4110 /* PBXTargetDependency */,
+			);
+			name = FZWAlarmclockTests;
+			productName = FZWAlarmclockTests;
+			productReference = 8F0718B51E5D966B000F4110 /* FZWAlarmclockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F0718BF1E5D966B000F4110 /* FZWAlarmclockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0718CF1E5D966B000F4110 /* Build configuration list for PBXNativeTarget "FZWAlarmclockUITests" */;
+			buildPhases = (
+				8F0718BC1E5D966B000F4110 /* Sources */,
+				8F0718BD1E5D966B000F4110 /* Frameworks */,
+				8F0718BE1E5D966B000F4110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F0718C21E5D966B000F4110 /* PBXTargetDependency */,
+			);
+			name = FZWAlarmclockUITests;
+			productName = FZWAlarmclockUITests;
+			productReference = 8F0718C01E5D966B000F4110 /* FZWAlarmclockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F0718941E5D966B000F4110 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = IOS2;
+				TargetAttributes = {
+					8F07189B1E5D966B000F4110 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U9H59UNCUJ;
+						ProvisioningStyle = Automatic;
+					};
+					8F0718B41E5D966B000F4110 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U9H59UNCUJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F07189B1E5D966B000F4110;
+					};
+					8F0718BF1E5D966B000F4110 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U9H59UNCUJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F07189B1E5D966B000F4110;
+					};
+				};
+			};
+			buildConfigurationList = 8F0718971E5D966B000F4110 /* Build configuration list for PBXProject "FZWAlarmclock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F0718931E5D966B000F4110;
+			productRefGroup = 8F07189D1E5D966B000F4110 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F07189B1E5D966B000F4110 /* FZWAlarmclock */,
+				8F0718B41E5D966B000F4110 /* FZWAlarmclockTests */,
+				8F0718BF1E5D966B000F4110 /* FZWAlarmclockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F07189A1E5D966B000F4110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F555F871E6016CA00256511 /* two.m4a in Resources */,
+				8F89D9851E5EC2E600F66AA0 /* SetTimerUI.xib in Resources */,
+				8F0718AF1E5D966B000F4110 /* LaunchScreen.storyboard in Resources */,
+				8F555F811E5FE61C00256511 /* NotifiFormForegroundAleart.xib in Resources */,
+				8F0718AC1E5D966B000F4110 /* Assets.xcassets in Resources */,
+				8F0718AA1E5D966B000F4110 /* Main.storyboard in Resources */,
+				8F89D9831E5EC29A00F66AA0 /* TimerListTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0718B31E5D966B000F4110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0718BE1E5D966B000F4110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F0718981E5D966B000F4110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0718A71E5D966B000F4110 /* ViewController.m in Sources */,
+				8F555F801E5FE61C00256511 /* NotifiFormForegroundAleart.m in Sources */,
+				8F89D9751E5EC05F00F66AA0 /* SetTimerUI.m in Sources */,
+				8F89D97E1E5EC10100F66AA0 /* TimerListTableViewCell.m in Sources */,
+				8F0718A41E5D966B000F4110 /* AppDelegate.m in Sources */,
+				8F0718A11E5D966B000F4110 /* main.m in Sources */,
+				8F0718D41E5D97B4000F4110 /* FWZLocationNotification.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0718B11E5D966B000F4110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0718BA1E5D966B000F4110 /* FZWAlarmclockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0718BC1E5D966B000F4110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0718C51E5D966B000F4110 /* FZWAlarmclockUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F0718B71E5D966B000F4110 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F07189B1E5D966B000F4110 /* FZWAlarmclock */;
+			targetProxy = 8F0718B61E5D966B000F4110 /* PBXContainerItemProxy */;
+		};
+		8F0718C21E5D966B000F4110 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F07189B1E5D966B000F4110 /* FZWAlarmclock */;
+			targetProxy = 8F0718C11E5D966B000F4110 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F0718A81E5D966B000F4110 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F0718A91E5D966B000F4110 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F0718AD1E5D966B000F4110 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F0718AE1E5D966B000F4110 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F0718C71E5D966B000F4110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F0718C81E5D966B000F4110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F0718CA1E5D966B000F4110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U9H59UNCUJ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/FZWAlarmClock.pch";
+				INFOPLIST_FILE = FZWAlarmclock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fzwios.FZWAlarmclock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F0718CB1E5D966B000F4110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U9H59UNCUJ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/FZWAlarmClock.pch";
+				INFOPLIST_FILE = FZWAlarmclock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fzwios.FZWAlarmclock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F0718CD1E5D966B000F4110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U9H59UNCUJ;
+				INFOPLIST_FILE = FZWAlarmclockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fzwios.FZWAlarmclockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FZWAlarmclock.app/FZWAlarmclock";
+			};
+			name = Debug;
+		};
+		8F0718CE1E5D966B000F4110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U9H59UNCUJ;
+				INFOPLIST_FILE = FZWAlarmclockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fzwios.FZWAlarmclockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FZWAlarmclock.app/FZWAlarmclock";
+			};
+			name = Release;
+		};
+		8F0718D01E5D966B000F4110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = U9H59UNCUJ;
+				INFOPLIST_FILE = FZWAlarmclockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fzwios.FZWAlarmclockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FZWAlarmclock;
+			};
+			name = Debug;
+		};
+		8F0718D11E5D966B000F4110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = U9H59UNCUJ;
+				INFOPLIST_FILE = FZWAlarmclockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fzwios.FZWAlarmclockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FZWAlarmclock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F0718971E5D966B000F4110 /* Build configuration list for PBXProject "FZWAlarmclock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0718C71E5D966B000F4110 /* Debug */,
+				8F0718C81E5D966B000F4110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F0718C91E5D966B000F4110 /* Build configuration list for PBXNativeTarget "FZWAlarmclock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0718CA1E5D966B000F4110 /* Debug */,
+				8F0718CB1E5D966B000F4110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F0718CC1E5D966B000F4110 /* Build configuration list for PBXNativeTarget "FZWAlarmclockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0718CD1E5D966B000F4110 /* Debug */,
+				8F0718CE1E5D966B000F4110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F0718CF1E5D966B000F4110 /* Build configuration list for PBXNativeTarget "FZWAlarmclockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0718D01E5D966B000F4110 /* Debug */,
+				8F0718D11E5D966B000F4110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F0718941E5D966B000F4110 /* Project object */;
+}
