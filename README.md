@@ -1,5 +1,7 @@
 # FZWAlarmclock
 iOS 闹钟通过通知实现
+
+@interface FWZLocationNotification
 /**
  *  初始化
  */
@@ -27,3 +29,21 @@ iOS 闹钟通过通知实现
  *  @param requertIdentifier 标示符 <weekday:hour:minu>
  */
 - (void)deleteNotificationWithNotificationRequertIdentifier:(NSArray<NSString*>*)requertIdentifier;
+
+
+@interface TimerCellModel : NSObject
+/**
+ *  模型转换
+ *
+ *  @param timerModels 定时列表模型数组
+ *
+ *  @return 通知专用模型数组
+ */
+- (NSMutableArray<TimerFormaterModel *>*)TimerAarrayRemovingAndMergingWithTimerArray:(NSMutableArray<TimerCellModel*> *)timerModels;
+
+/**
+*weakSelf.listDataArray<TimerCellModel>
+*/
+ [weakSelf.location registerNotificationConfigWithModels:nil subTitle:nil bodyContent:nil badgeNumber:0 soundNamed:nil TimerModels:[model TimerAarrayRemovingAndMergingWithTimerArray:weakSelf.listDataArray]];
+ 
+ 
